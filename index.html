@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>blockmutch.io</title>
+    <link rel="icon" type="image/png" href="images/cube-logo.jpg">
+    <script src="https://bs-community.github.io/skinview3d/js/skinview3d.bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="ranks.js"></script>
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+
+
+
+
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <!--text with logo beside it -->
+                    <h1>blockmutch</h1>
+                        <!--Simple menu options-->
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">Servers</a></li>
+                            <li><a href="contact.html">Players</a></li>
+                            <li><a href="contact.html">Skins</a></li>
+                            <li><a href="contact.html">About</a></li>
+                        </ul>   
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="view">
+        <label for="name" class="hidden">Name</label>
+        <input autofocus autocomplete="off" id="name" type="text" class="bar" placeholder="|">
+        <h1 id="player">...</h1>
+        <div class="content">
+            <div class="skinContainer">
+                <canvas class="skin" id="skin"></canvas>
+                <div class="animations">
+                    <img src="person-walking-solid.svg" alt="" class="animation" id="walk">
+                    <img src="person-running-solid.svg" alt="" class="animation" id="run">
+                    <img src="paper-plane-solid.svg" alt="" class="animation" id="fly">
+                </div>
+            </div>
+            <div class="right">
+                <div class="profile">
+                    <h2>Profile</h2>
+                    <div class="data">
+                        <b class="key">Rank</b>
+                        <div id="rank" class="value">Loading...</div>
+                    </div>
+                    <div class="data">
+                        <b class="key">UUID</b>
+                        <div id="uuid" class="value">Loading...</div>
+                    </div>
+                </div>
+                <div class="line">
+                    <div class="history">
+                        <h2>Name Archive</h2>
+                        <div class="list" id="history">
+                            <div>*****</div>
+                        </div>
+                    </div>
+                    <div class="skins">
+                        <h2>Skin Archive</h2>
+                        <div class="list" id="skins">
+                            <img id="head" class="head" src="https://mc-heads.net/avatar/ZackyDawg/100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
