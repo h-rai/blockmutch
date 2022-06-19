@@ -1,10 +1,10 @@
 body {
-    background-color: #000;
-    color: #F3F2F3;
+    background-color: #010101;
+    color: #fff;
     /*bold minecraft font*/
     font-family: 'Minecraftia', sans-serif;
     font-size: 1.2em;
-    text-shadow: 0 0 0.1em #000000;
+    text-shadow: 0 0 0.1em #016293;
     font-size: 14px;
     display: flex;
     justify-content: center;
@@ -13,14 +13,15 @@ body {
 }
 
 .header {
-    background-color: #000;
+    background-color: #010101;
     border-radius: 10px;
     display:flex;
+    border: 5px solid #003E5C;
   }
 
 
 .skinContainer {
-    background-color: rgba(184, 39, 39, 0.841);
+    background-color: #01629334;
     border-radius: 10px;
     display:flex;
     flex-direction: column;
@@ -28,7 +29,6 @@ body {
     align-items: center;
     padding: 10px;
     margin: 10px;
-
 }
 
 .skinContainer img {
@@ -39,9 +39,9 @@ body {
 }
 
 .skinContainer h1 {
-    color: #F3F2F3;
+    color: #1e512833;
     font-size: 1.2em;
-    text-shadow: 0 0 0.1em #000000;
+    text-shadow: 0 0 0.1em #01629334;
     font-size: 14px;
     margin: 10px;
 }
@@ -49,20 +49,20 @@ body {
 
 /* profile should be similar to skinContainer */
 .profile {
-    background-color: rgba(184, 39, 39, 0.841);
+    background-color: #01629334;
     border-radius: 10px;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
 }
 
 .line {
     width: 100%;
     height: 1px;
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0);
     margin: 10px;
 }
 
@@ -80,7 +80,6 @@ body {
     padding-left: 5px;
     padding-bottom: 5px;
     padding-top: 5px;
-    border-top: 1px solid #ffffff10;
     gap: 10px;
 }
 
@@ -95,22 +94,23 @@ body {
     flex-direction: column;
     align-items: center;
     position: relative;
+    height: 1000px;
     width: 103%;
 }
 
 .view .bar {
     width: calc(100% - 22px);
-    border: 1px solid #797779;
-    background-color: #79777925;
+    border: 3px solid #003E5C;
+    background-color: #01629334;
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 10px;
-    color: #fff;
+    color: #003E5C;
     transition: .3s ease;
 }
 .view .bar:hover {
-    background-color: #797779;
-    color: #fff;
+    background-color: #01629334;
+    color: #f8f8f8;
 }
 
 .content {
@@ -131,8 +131,7 @@ body {
     width: 95%;
     padding: 10px;
     border-radius: 10px;
-    background-color: #79777925;
-    border: 1px solid #797779;
+    background-color: #01629334;
     color: #fff;
 }
 
@@ -143,8 +142,7 @@ body {
     width: 95%;
     padding: 10px;
     border-radius: 10px;
-    background-color: #79777925;
-    border: 1px solid #797779;
+    background-color: #01629334;
     color: #fff;
 }
 
@@ -159,7 +157,7 @@ h2 {
     font-size: 15px;
     font-weight: bold;
     color: #fff;
-    border-bottom: 1px solid #ffffff10;
+    border-bottom: 1px solid #003E5C;
     margin: 0 -10px 5px;
     padding-left: 10px;
     padding-bottom: 5px;
@@ -167,7 +165,7 @@ h2 {
 
 h1 {
     width: 97%;
-    border-bottom: 3px solid #0037ff;
+    border-bottom: 3px solid #003E5C;
     padding-bottom: 10px;
     font-size: 20px;
     font-weight: bold;
